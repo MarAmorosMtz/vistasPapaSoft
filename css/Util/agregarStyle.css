@@ -21,7 +21,11 @@
 }
 
 
-.hBox{
+.hBoxTop{
+-fx-spacing: 20;;
+}
+
+.hBoxBottom{
 -fx-spacing: 90;
 }
 
