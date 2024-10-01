@@ -24,7 +24,11 @@
             <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Asesorados" />
             <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Reportes" />
             <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Asesorias" />
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Configuracion" />
+            <VBox alignment="BOTTOM_CENTER" maxHeight="1.7976931348623157E308" prefHeight="200.0" prefWidth="157.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Configuracion" />
+               </children>
+            </VBox>
          </children>
       </VBox>
       <BorderPane prefHeight="678.0" prefWidth="1016.0">
@@ -40,7 +44,7 @@
                      <children>
                         <ImageView fitHeight="81.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../ImagenesPerronas/defaultPfp.png" />
+                              <Image url="@../../ImagenesPerronas/defaultPfp.png" />
                            </image>
                         </ImageView>
                      </children>
