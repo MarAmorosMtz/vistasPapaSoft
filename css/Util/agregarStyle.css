@@ -1,0 +1,56 @@
+.vBox{
+-fx-padding: 25;
+-fx-spacing: 10;
+}
+
+.label{
+-fx-font-family: verdana;
+-fx-font-size: 18;
+-fx-padding: 10px;
+-fx-border-insets: 10px;
+-fx-background-insets: 10px;
+-fx-font-weight: bold;
+}
+
+.textField{
+-fx-background-radius: 10;
+-fx-border-radius: 10;
+-fx-border-color: black;
+-fx-font-family: verdana;
+-fx-font-size: 15;
+}
+
+
+.hBox{
+-fx-spacing: 90;
+}
+
+.btnGuardar{
+-fx-background-radius: 10;
+-fx-border-radius: 10;
+-fx-text-fill: white;
+-fx-font-family: Verdana;
+-fx-font-size: 15;
+-fx-background-color: #00008b;
+-fx-border-color: black;
+-fx-font-weight: bold;
+}
+
+.btnGuardar:hover{
+-fx-cursor: hand;
+}
+
+.btnCancelar{
+-fx-background-radius: 10;
+-fx-border-radius: 10;
+-fx-text-fill: red;
+-fx-font-family: Verdana;
+-fx-font-size: 15;
+-fx-background-color: withe;
+-fx-border-color: red;
+-fx-font-weight: bold;
+}
+
+.btnCancelar:hover{
+-fx-cursor: hand;
+}
