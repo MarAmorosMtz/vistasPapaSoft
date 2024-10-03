@@ -9,21 +9,21 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../../css/Main/mainStyle.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" stylesheets="/css/Main/mainStyle.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
    <children>
       <VBox alignment="TOP_CENTER" prefHeight="720.0" prefWidth="291.0" styleClass="vbox-DashBoard">
          <children>
             <ImageView fitHeight="86.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../ImagenesPerronas/papasLogo.png" />
+                  <Image url="/ImagenesPerronas/papasLogo.png" />
                </image>
             </ImageView>
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Materias" />
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Maestros" />
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Asesores" />
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Asesorados" />
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Reportes" />
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Asesorias" />
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Materias" onAction="#handleButtonAction"/>
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Maestros" onAction="#handleButtonAction"/>
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Asesores" onAction="#handleButtonAction"/>
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Asesorados" onAction="#handleButtonAction"/>
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Reportes" onAction="#handleButtonAction"/>
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Asesorias" onAction="#handleButtonAction"/>
             <VBox alignment="BOTTOM_CENTER" maxHeight="1.7976931348623157E308" prefHeight="200.0" prefWidth="157.0">
                <children>
                   <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="136.0" styleClass="buttonDashBoard" text="Configuracion" />
@@ -44,7 +44,7 @@
                      <children>
                         <ImageView fitHeight="81.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../ImagenesPerronas/defaultPfp.png" />
+                              <Image url="/ImagenesPerronas/defaultPfp.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -53,7 +53,7 @@
             </StackPane>
          </top>
          <center>
-            <StackPane prefHeight="517.0" prefWidth="824.0" BorderPane.alignment="CENTER" />
+            <StackPane fx:id="Display" prefHeight="517.0" prefWidth="824.0" BorderPane.alignment="CENTER" />
          </center>
       </BorderPane>
    </children>
