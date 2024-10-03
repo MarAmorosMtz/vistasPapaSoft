@@ -12,7 +12,7 @@ import java.io.IOException;
 
         @Override
         public void start(Stage stage) throws IOException {
-            scene = new Scene(loadFXML("/fxml/Main/fmxlMain"));
+            scene = new Scene(loadFXML("/fxml/Login/LoginPapasoft"));
             stage.setScene(scene);
             stage.setResizable(true);
             stage.setMaximized(false);
